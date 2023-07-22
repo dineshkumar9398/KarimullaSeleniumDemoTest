@@ -25,7 +25,7 @@ public class Tc_loginTest extends BaseClass {
 		driver = setup(prop.getProperty("BrowserName"));
 		driver.get(prop.getProperty("baseURL"));
 	}
-	
+	// code has been updated done by karimjr
 	//Global Variable 
 	accountPage account;
 	@Test(priority = 1)
